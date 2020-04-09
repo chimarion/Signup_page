@@ -1,0 +1,106 @@
+html, body {
+    background-color: #062963;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+} 
+
+
+body {
+    background-image: url(C:/Users/Hp/Downloads/a.png), url(C:/Users/Hp/Downloads/o.png), url(C:/Users/Hp/Downloads/d.png), url(C:/Users/Hp/Downloads/g.png);
+    background-position: right bottom, left top, left bottom, right top; 
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position-x: 105%, -10%, -10%, 105%;
+    background-size: 15%, 15%, 15%, 15%;
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 90%;
+    margin: 0px;
+    background-position-x: center;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    background-color: white;
+    border-radius: 20px 20px 20px 0px;
+    padding: 50px;
+}
+
+form {
+    padding: 10px;
+}
+
+input, select {
+    display: block;
+    min-width: 28vw;
+    background-color: rgb(202, 213, 228);
+    padding: 15px;
+    margin-bottom: 20px;
+    opacity: 0.3;
+    border: 30px;
+}
+
+#list {
+    min-width: 30vw;
+}
+
+
+
+option {
+    background-color: white;
+     
+}
+
+.piggyvest_logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90px;
+}
+
+#icon {
+    width: 100%;
+    padding-top: 50px;
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+#submit {
+    background-color: #062963;
+    color: white;
+    opacity: 1;
+    width: 30vw;
+    border-radius: 10px 10px 10px 0px;
+}
+
+p {
+    text-align: center;  
+}
+
+b {
+    color: #062963;
+    font-size: 2vw;
+}
+
+
+

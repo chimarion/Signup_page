@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>PiggyVest | Dashboard</title>
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="piggyvest_logo">
+            <a href="www.piggyvest.com"><img id="icon" src="C:/Users/Hp/Downloads/piggyvest-logo.svg" alt="icon"></a>
+        </div> 
+        <main>
+            <div class="card">
+                <p><b>Create a Secure Account</b> <br>
+                Welcome to the future of Savings & Investments</p>
+                <form action="action.php">
+                    <label for="full_name">Full Name</label>
+                    <input type="text" id="full_name" name="full_name" placeholder="Full Name"><br>
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Email Address"><br>
+                    <label for="phoneno">Phone Number</label>
+                    <input type="tel" id="number" name="number" placeholder="Phone Number"><br>
+                    <label for="pword">Password</label>
+                    <input type="text" id="pword" name="pword" placeholder="Password"><br>
+                    <label for="referral">Referrer Phone or Promo Code (Optional)</label>
+                    <input type="text" id="code" name="code" placeholder="Referrer Phone Or Code"><br>
+                    <label for="aboutus">How Did You Hear About Us? (Optional)</label>
+                    <div class="wrap"><select id="list" class="wrapper" onfocus='this.size=3;' onblur='this.size=1;' onchange='this.size=1; this.blur();'>
+                        <option value="click">Click To Select</option>
+                        <option value="fbook">Facebook</option>
+                        <option value="tweet">Twitter</option>
+                        <option value="ig">Instagram</option>
+                        <option value="refer">Friends/Family/Coworker Referral</option>
+                        <option value="gsearch">Google search</option>
+                        <option value="gplay">Google playstore</option>
+                        <option value="blog">Online Blog</option>
+                        <option value="npaper">Local Newspaper</option>
+                        <option value="event">At an event</option>
+                        <option value="other">Other</option>
+                    </select></div>  
+                    <br>
+                    <input type="submit"  id="submit" value="CREATE ACCOUNT">
+                </form>
+            </div>   
+        </main>
+        <a href="dashboard/piggyvest.com/login" id="login">Already have an account? Log in</a> 
+    </body>
+</html>
